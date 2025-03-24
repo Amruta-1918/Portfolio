@@ -75,7 +75,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-purple-500 rounded-full blur-lg opacity-50"></div>
             <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-purple-500 shadow-2xl">
               <Image
-                src="logo.png"
+                src="favicon.png"
                 alt="Amruta Logo"
                 fill
                 sizes="(max-width: 768px) 160px, 192px"
