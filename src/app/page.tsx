@@ -55,7 +55,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
       {/* Hero Section */}
       <motion.section 
         initial={{ opacity: 0 }}
@@ -70,17 +70,19 @@ export default function Home() {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="mb-6 relative w-32 h-32 md:w-40 md:h-40"
+            className="mb-6 relative w-40 h-40 md:w-48 md:h-48"
           >
             <div className="absolute inset-0 bg-purple-500 rounded-full blur-lg opacity-50"></div>
-            <Image
-              src="/images/logo.png"
-              alt="Amruta Logo"
-              fill
-              className="rounded-full object-contain border-4 border-purple-500 shadow-2xl p-1"
-              priority
-              sizes="(max-width: 768px) 128px, 150px"
-            />
+            <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-purple-500 shadow-2xl">
+              <Image
+                src="/images/logo.png"
+                alt="Amruta Logo"
+                fill
+                sizes="(max-width: 768px) 160px, 192px"
+                className="object-cover"
+                priority
+              />
+            </div>
           </motion.div>
           <motion.h1 
             initial={{ y: 20, opacity: 0 }}
