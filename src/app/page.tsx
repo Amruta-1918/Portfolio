@@ -79,7 +79,7 @@ export default function Home() {
                 alt="Amruta Logo"
                 fill
                 sizes="(max-width: 768px) 160px, 192px"
-                className="object-cover"
+                className="object-contain"
                 priority
               />
             </div>
