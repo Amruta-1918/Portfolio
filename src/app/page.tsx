@@ -78,7 +78,7 @@ export default function Home() {
                 src="favicon_wightBG.png"
                 alt="Amruta Logo"
                 fill
-                //sizes="(max-width: 768px) 160px, 192px"
+                sizes="(max-width: 768px) 160px, 192px"
                 className="object-contain rounded-full"
                 priority
               />
